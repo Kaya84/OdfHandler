@@ -89,7 +89,7 @@ class OdfHandler extends BitmapHandler {
         return true;
     }
 
-    public function getParamMap() { return [ 'width' => 'width' ]; }
+	public function getParamMap() { return [ 'img_width' => 'width' ]; }
     public function validateParam( $name, $value ) { return ( $name === 'width' && $value > 0 ); }
     public function makeParamString( $params ) { return isset( $params['width'] ) ? "{$params['width']}px" : '200px'; }
     public function parseParamString( $str ) {
