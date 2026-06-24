@@ -2,6 +2,7 @@
     "name": "OdfHandler",
     "version": "0.0.1",
     "author": "Alessandro Carloni @Comune di Rovereto",
+	"url": "https://www.mediawiki.org/wiki/Extension:OdfHandler",
     "description": "Genera anteprime per i file ODT, OFS e ODF estraendo la thumbnail nativa dallo zip.",
     "type": "media",
 	"MediaHandlers": {
